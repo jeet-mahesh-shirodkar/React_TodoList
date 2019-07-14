@@ -1,0 +1,44 @@
+
+.Todo{
+position: relative;
+top: 113px;
+}
+.heading{
+    text-align: center;
+    color:whitesmoke;
+    font-family: Courier New;
+    font-size: larger;
+    opacity: 0.6;
+}
+input[type=text]{
+    width: 100%;
+    border-block-color:inherit;
+    border: -1.5px;
+    opacity: 0.6;
+    border: 2px solid rgb(8, 49, 85);
+    border-radius: 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 7px;
+}
+input[type=text]:focus{
+    border-color: rgb(35, 104, 161);
+}
+button{
+    float: right;
+    margin-right: 230px;
+    margin-top: 7px;
+    opacity: 0.6;
+    font-family: Courier 'Courier New', Courier, monospace;
+    
+}
+
+ul,li{
+color: whitesmoke;
+clear: inline-end;
+}
+
+span{
+float: right;
+color: rgb(160, 92, 92); 
+}
